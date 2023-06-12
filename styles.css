@@ -5,6 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0em 0.5em 0em 0.5em;
 }
 
 #form-container > form {
