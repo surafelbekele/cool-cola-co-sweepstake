@@ -1,0 +1,19 @@
+/*!
+ * Pico CSS v1.5.10 (https://picocss.com)
+ * Copyright 2019-2023 - Licensed under MIT
+ */
+
+// Config
+@import "variables";
+
+// Theming
+@import "sweepstake_themes/default";
+
+// Layout
+@import "layout/document"; // html
+@import "layout/sectioning"; // body, header, main, footer
+
+// Content
+@import "content/typography"; // a, headings, p, ul, blockquote, ...
+@import "content/button"; // button, a[role=button], type=button, type=submit ...
+@import "content/form"; // input, select, textarea, label, fieldset, legend

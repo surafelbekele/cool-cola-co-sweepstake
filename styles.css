@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+#form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#form-container > form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    font-family: 'Great Vibes', cursive;
+    font-size: 3.5rem;
+    margin: 0px;
+    color: var(--primary)
+    /* The primary variable will be assigned by pico*/
+}
+
+form > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#name > input {
+    width: 49%;
+}
+
+#address-zip, #city-state {
+    width: 100%;
+}
+
+#address {
+    width: 60%;
+}
+
+#zip {
+    width: 38%;
+}
+
+#city-state > input {
+    width: 70%
+}
+
+#city-state > select {
+    width: 28%;
+}
